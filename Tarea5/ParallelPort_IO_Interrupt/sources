@@ -1,0 +1,17 @@
+TARGETNAME=PARALLELPORT_IO_INTERRUPT
+TARGETTYPE=DRIVER
+DRIVERTYPE=WDM
+TARGETPATH=obj
+USE_PDB=1
+
+TARGETLIBS= \
+
+
+
+SOURCES=	DriverEntry.cpp \
+			DevQueue.cpp \
+			PlugPlay.cpp \
+			Power.cpp \
+			ReadWrite.cpp \
+			Control.cpp \
+			driver.rc
